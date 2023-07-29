@@ -1,4 +1,4 @@
-![Header](https://github.com/amarnadh98/amarnadh/blob/main/amarnadh_a_pic.jpg "Header")
+![Header](https://github.com/amarnadh98/amarnadh/blob/main/amarnadh_a_pic.jpg "Header" align="right")
 
 <h1 align="center">Hola <img src="https://github.com/ksdiwe/ksdiwe/blob/main/wave.gif" width="30px"></h1>
 
