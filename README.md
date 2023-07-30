@@ -1,6 +1,6 @@
 ![Header](https://github.com/amarnadh98/amarnadh/blob/main/amarnadh%20github%20main%20banner.png "Header")
 
-<h1 align="center">Hola <img src="https://github.com/ksdiwe/ksdiwe/blob/main/wave.gif" width="30px"></h1>
+<h1 align="center">Hola <img src="https://github.com/amarnadh98/amarnadh/blob/main/wave.gif" width="30px"></h1>
 
 
 
