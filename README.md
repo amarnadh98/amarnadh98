@@ -9,6 +9,51 @@
 
 - 📫 Reach me at **avenkatamarnadh@gmail.com**
 
+<!--Image slider for certificates-->
+<div style="overflow: hidden;">
+  <img src="image1.jpg" alt="Image 1" style="width: 100%; height: auto;">
+  <img src="image2.jpg" alt="Image 2" style="width: 100%; height: auto;">
+  <img src="image3.jpg" alt="Image 3" style="width: 100%; height: auto;">
+</div>
+
+<!--Navigation buttons-->
+<div style="text-align: center; margin-top: 10px;">
+  <button onclick="prevSlide()">Previous</button>
+  <button onclick="nextSlide()">Next</button>
+</div>
+
+<script>
+  let currentIndex = 0;
+  const images = document.querySelectorAll('img');
+
+  function showSlide(index) {
+    if (index < 0) {
+      currentIndex = images.length - 1;
+    } else if (index >= images.length) {
+      currentIndex = 0;
+    }
+    for (let i = 0; i < images.length; i++) {
+      if (i === currentIndex) {
+        images[i].style.display = 'block';
+      } else {
+        images[i].style.display = 'none';
+      }
+    }
+  }
+
+  function prevSlide() {
+    currentIndex--;
+    showSlide(currentIndex);
+  }
+
+  function nextSlide() {
+    currentIndex++;
+    showSlide(currentIndex);
+  }
+
+  // Show the initial slide
+  showSlide(currentIndex);
+</script>
 
 
 <h3 align="left">Connect with me:</h3>
