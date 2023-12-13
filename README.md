@@ -10,19 +10,19 @@
 - 📫 Reach me at **avenkatamarnadh@gmail.com**
 
 <!--Image slider for certificates-->
-<div style="overflow: hidden;">
+<!-- <div style="overflow: hidden;">
   <img src="image1.jpg" alt="Image 1" style="width: 100%; height: auto;">
   <img src="image2.jpg" alt="Image 2" style="width: 100%; height: auto;">
   <img src="image3.jpg" alt="Image 3" style="width: 100%; height: auto;">
-</div>
+</div> -->
 
 <!--Navigation buttons-->
-<div style="text-align: center; margin-top: 10px;">
+<!-- <div style="text-align: center; margin-top: 10px;">
   <button onclick="prevSlide()">Previous</button>
   <button onclick="nextSlide()">Next</button>
-</div>
+</div> -->
 
-<script>
+<!--<script>
   let currentIndex = 0;
   const images = document.querySelectorAll('img');
 
@@ -53,7 +53,7 @@
 
   // Show the initial slide
   showSlide(currentIndex);
-</script>
+</script> -->
 
 
 <h3 align="left">Connect with me:</h3>
